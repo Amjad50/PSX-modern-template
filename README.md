@@ -47,7 +47,7 @@ If you want to use `GsInitGraph` from the `gs` library. You need to include thes
 ```
 And these libraries
 ```Makefile
-LIBS += -letc -lgte -lgpu -lgs 
+LIBS += -lgs -lgpu -lgte -letc
 ```
 
 ### Completion and `compile_commands.json`
