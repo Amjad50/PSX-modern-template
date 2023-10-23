@@ -68,5 +68,9 @@ I'm planning to add a `CI` setup to this template as well, using a headless emul
 
 We can expand [my PSX emulator](https://github.com/Amjad50/PSX) to have this feature.
 
+### Acknowledgements
+- The `.a` files were generated using https://gitlab.com/jype/psyq2elf from the original `PSYQ` binaries
+- The docker image used is created for the https://github.com/Lameguy64/PSn00bSDK project, but since it doesn't have all the features yet, we can use the toolchain only.
+
 ### Enjoy
 Any improvements for this "template" projects are always welcome.
