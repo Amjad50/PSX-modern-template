@@ -63,5 +63,10 @@ When adding a new `C` file, you should modify 2 places.
 2) In the [compile_commands.json](./compile_commands.json) file, to add a new entry so that you get completion for it.
    You can just copy the `main.c` entry and then modify the file to `extra1.c` or `extra2.c`, etc...
 
+### Future Plans
+I'm planning to add a `CI` setup to this template as well, using a headless emulator that can test based on some stuff. So we can have test driven development for the PSX :D.
+
+We can expand [my PSX emulator](https://github.com/Amjad50/PSX) to have this feature.
+
 ### Enjoy
 Any improvements for this "template" projects are always welcome.
