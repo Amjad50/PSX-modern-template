@@ -8,6 +8,9 @@ This project provides a template that you can start from to create your own PSX 
   Which will help since you are not required to fight with PSYQ toolchain anymore (except for creating TIM files and audio files).
 - Get fancy code completion from `clangd` or something similar.
 
+### Dependencies
+- `docker`: used for building, thus not required to have `make`, `gcc`, etc... installed.
+
 ### How to use
 You can compile the program with
 ```
