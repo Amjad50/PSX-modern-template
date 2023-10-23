@@ -1,0 +1,26 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-g",
+      "-msoft-float",
+      "-O3",
+      "-D__PLAYSTATION__",
+      "-fno-builtin",
+      "-fdata-sections",
+      "-ffunction-sections",
+      "-Wall",
+      "-Wextra",
+      "-Wno-strict-aliasing",
+      "-Wno-sign-compare",
+      "-IINCLUDE",
+      "-c",
+      "-o",
+      "build/d_main.o",
+      "main.c"
+    ],
+    "directory": "",
+    "file": "main.c",
+    "output": "build/d_main.o"
+  }
+]

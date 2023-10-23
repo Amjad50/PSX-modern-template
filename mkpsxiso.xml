@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iso_project image_name="main.bin" cue_sheet="main.cue" no_xa="0">
+	<track type="data">
+		<identifiers
+			system			="PLAYSTATION"
+			application		="PLAYSTATION"
+		/>
+		<directory_tree>
+			<file name="SYSTEM.CNF"	type="data"	source="system.cnf"/>
+			<file name="PROGRAM.EXE"	type="data"	source="main.exe"/>
+		</directory_tree>
+	</track>
+</iso_project>
