@@ -22,7 +22,7 @@ When adding a header to your code
 ```
 You might have a compilation error because it can't find some of the symbols.
 
-If you got that, then probably you need to add these libraries into the [`Makefile`](./Makefile), You can do it here
+If you got that, then probably you need to add these libraries into the [Makefile](./Makefile), You can do it here
 ```Makefile
 LIBS += -lgs
 ```
@@ -31,7 +31,7 @@ Sometimes, a library uses code from another library, so you have to include that
 Same thing in the includes, the headers are not including dependencies headers, so, sometimes when you include a header,
 you will get compilation error because it can't find the types/functions, and that's because the header is relying on other headers, which **MUST** be included before it (the formatter might play with the sorting, which is bad here).
 
-> **Note:** the issue above could be solved by adding these includes manually, but I think that figuring out these headers will help you know which libraries to include the [`Makefile`](./Makefile) as well.
+> **Note:** the issue above could be solved by adding these includes manually, but I think that figuring out these headers will help you know which libraries to include the [Makefile](./Makefile) as well.
 
 #### An example
 If you want to use `GsInitGraph` from the `gs` library. You need to include these headers
@@ -56,7 +56,7 @@ This won't work, but you can just put the directory of your project in that spac
 
 ### Adding multiple `C` files
 When adding a new `C` file, you should modify 2 places.
-1) In the [`Makefile`](./Makefile) add the `<file>.o`
+1) In the [Makefile](./Makefile) add the `<file>.o`
    ```Makefile
    main.elf: main.o extra1.o extra2.o ...    
    ```
