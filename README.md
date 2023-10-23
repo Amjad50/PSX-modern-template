@@ -63,6 +63,11 @@ When adding a new `C` file, you should modify 2 places.
 2) In the [compile_commands.json](./compile_commands.json) file, to add a new entry so that you get completion for it.
    You can just copy the `main.c` entry and then modify the file to `extra1.c` or `extra2.c`, etc...
 
+### Configuring the CD ROM and adding more files
+The CD ROM is being built using [mkpsxiso](https://github.com/Lameguy64/mkpsxiso), so you can look there for more documentations. I just included a prebuilt binary in the repo to make it easier to use.
+
+You can modify [mkpsxiso.xml](./mkpsxiso.xml) and [system.cnf](./system.cnf) as you need.
+
 ### Future Plans
 I'm planning to add a `CI` setup to this template as well, using a headless emulator that can test based on some stuff. So we can have test driven development for the PSX :D.
 
